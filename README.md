@@ -36,5 +36,5 @@ Each script shows a simple, low-key way to do SQL, async ops, and data stuff wit
 
 ## 💡 Why This Exists
 
-Cuz sometimes you just wanna **talk to a database** without selling your soul to an ORM.
+Cuz sometimes you just wanna **talk to a database** without wrestling a whole framework for it.  
 These little scripts keep it minimal, readable, and actually fun to use.
