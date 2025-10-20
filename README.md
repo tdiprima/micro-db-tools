@@ -26,7 +26,7 @@ Each script shows a simple, low-key way to do SQL, async ops, and data stuff wit
 2. (Optional) Set up sample DBs for demos:
 
    ```bash
-   python init_user_data_db.py
+   sqlite3 user_data.db < user_data_db.sql
    ```
 3. Run your script of choice:
 
