@@ -1,4 +1,4 @@
-# initializes a SQLite database with a 'users' table and sample data.
+# Initializes a SQLite database with a 'users' table and sample data.
 
 import sqlite3
 
