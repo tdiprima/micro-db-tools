@@ -1,0 +1,14 @@
+[project]
+name = "micro-db-tools"
+version = "0.1.0"
+description = "Python Micro DB Tools"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiosqlite>=0.21.0",
+    "dataset>=1.6.2",
+    "peewee>=3.18.2",
+    "pypika>=0.48.9",
+    "records>=0.5.3",
+    "sqlalchemy>=1.4.54",
+]
