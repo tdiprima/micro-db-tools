@@ -1,5 +1,5 @@
 -- Initializes a SQLite database with a 'tasks' table and sample data.
--- Run with: sqlite3 task_app.db < init_task_app_db.sql
+-- Run with: sqlite3 task_app.db < task_app_db.sql
 
 CREATE TABLE IF NOT EXISTS tasks (
     id INTEGER PRIMARY KEY,

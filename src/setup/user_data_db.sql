@@ -1,5 +1,5 @@
 -- Initializes a SQLite database with a 'users' table and sample data.
--- Run with: sqlite3 user_data.db < init_user_data_db.sql
+-- Run with: sqlite3 user_data.db < user_data_db.sql
 
 CREATE TABLE IF NOT EXISTS users (
     id INTEGER PRIMARY KEY,
