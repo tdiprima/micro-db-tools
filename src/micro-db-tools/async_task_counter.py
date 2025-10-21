@@ -1,4 +1,8 @@
-# Uses asynchronous SQLite to count and print the number of pending tasks without blocking the event loop.
+"""
+Async task to count pending tasks in the database.
+Uses asynchronous SQLite to count and print the number of pending tasks 
+without blocking the event loop.
+""" 
 
 import asyncio
 
@@ -18,3 +22,4 @@ async def count_pending_tasks():
 
 if __name__ == "__main__":
     asyncio.run(count_pending_tasks())
+    # Pending tasks: 2
