@@ -21,9 +21,12 @@ Each script shows a simple, low-key way to do SQL, async ops, and data stuff wit
 1. Install deps like a pro:
 
    ```bash
-   uv add records dataset aiosqlite sqlalchemy pypika peewee
+   uv add 'records==0.5.2'
+   uv add dataset aiosqlite sqlalchemy pypika peewee
+   # or
+   uv sync
    ```
-2. (Optional) Set up sample DBs for demos:
+2. Set up sample DBs for demos:
 
    ```bash
    sqlite3 user_data.db < user_data_db.sql
