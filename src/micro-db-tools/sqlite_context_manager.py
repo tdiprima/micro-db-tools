@@ -1,4 +1,7 @@
-# Defines a context manager for simplified SQLite interactions, creates a table, inserts data, and retrieves it.
+"""
+Defines a context manager for simplified SQLite interactions, 
+creates a table, inserts data, and retrieves it.
+"""
 
 import sqlite3
 
@@ -36,3 +39,4 @@ def perform_db_ops():
 
 if __name__ == "__main__":
     perform_db_ops()
+    # Retrieved: ('update_date', '2024-12-31')

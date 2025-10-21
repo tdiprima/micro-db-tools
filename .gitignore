@@ -210,3 +210,4 @@ __marimo__/
 task_app.db
 user_data.db
 quick_data.*
+settings.db
