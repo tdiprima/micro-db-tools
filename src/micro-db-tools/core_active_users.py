@@ -1,4 +1,8 @@
-# Uses SQLAlchemy Core to define a table, insert data, and query active users programmatically without full ORM overhead.
+"""
+Module to fetch active users from the database.
+Uses SQLAlchemy Core to define a table, insert data, and query active users 
+programmatically without full ORM overhead.
+"""
 
 from sqlalchemy import (Column, Integer, MetaData, String, Table,
                         create_engine, select)
@@ -17,7 +21,7 @@ metadata.create_all(engine)
 
 def fetch_active_users():
     stmt = select(user_table).where(user_table.c.status == "active")
-    with engine.connect() as connection:
+    with engine.begin() as connection:
         connection.execute(
             user_table.insert(),
             [
@@ -32,3 +36,4 @@ def fetch_active_users():
 
 if __name__ == "__main__":
     fetch_active_users()
+    # Active User: Eve
