@@ -1,5 +1,7 @@
-# Connects to a SQLite database and fetches active users as a list of dictionaries, printing their details without manual cursor handling.
-
+"""
+Connects to a SQLite database and fetches active users as a list of dictionaries, 
+printing their details without manual cursor handling.
+"""
 import records
 
 DB_URL = "sqlite:///user_data.db"
@@ -15,3 +17,5 @@ def fetch_active_users():
 
 if __name__ == "__main__":
     fetch_active_users()
+    # User: Alice, Email: alice@example.com
+    # User: Charlie, Email: charlie@example.com
