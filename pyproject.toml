@@ -9,5 +9,6 @@ dependencies = [
     "dataset>=1.6.2",
     "peewee>=3.18.2",
     "pypika>=0.48.9",
+    "records<0.5.3",
     "sqlalchemy>=1.4.54",
 ]
