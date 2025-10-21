@@ -8,7 +8,6 @@ Each script shows a simple, low-key way to do SQL, async ops, and data stuff wit
 
 ## ⚙️ What's Inside
 
-* `fetch_active_users.py` → grabs users with `records` (easy mode)
 * `instant_data_storage.py` → instant storage using `dataset` (plug & play fr)
 * `async_task_counter.py` → async DB reads with `aiosqlite` (✨ async supremacy ✨)
 * `core_active_users.py` → runs queries with SQLAlchemy Core (no ORM drama)
