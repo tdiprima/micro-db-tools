@@ -1,4 +1,7 @@
-# Uses Peewee as a lightweight ORM to create a blog post model, insert data, retrieve it, and update its status.
+"""
+Uses Peewee as a lightweight ORM to create a blog post model, 
+insert data, retrieve it, and update its status.
+"""
 
 from peewee import *
 
@@ -37,3 +40,5 @@ def handle_blog_posts():
 if __name__ == "__main__":
     handle_blog_posts()
     db.close()
+    # Retrieved Post: Lightweight ORM Guide
+    # Published status: False
