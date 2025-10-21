@@ -1,4 +1,7 @@
-# Builds a complex SQL query programmatically using Python objects and prints the generated SQL string.
+"""
+Builds a complex SQL query programmatically using Python objects and 
+prints the generated SQL string.
+"""
 
 from pypika import Query, Table
 
@@ -21,3 +24,4 @@ def generate_sql_query():
 
 if __name__ == "__main__":
     generate_sql_query()
+    # SELECT sales.id,clients.name,sales.total FROM sales JOIN clients ON sales.client_id=clients.id WHERE sales.total>200 ORDER BY sales.total
